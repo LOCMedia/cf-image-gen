@@ -1,0 +1,11 @@
+name = "cf-image-gen"
+main = "worker.js"
+compatibility_date = "2025-05-01"
+
+# Workers AI binding - gives env.AI.run() access to all listed image models.
+[ai]
+binding = "AI"
+
+# Configure API_KEY as a secret, not in this file:
+#   wrangler secret put API_KEY
+# The worker rejects any request without `Authorization: Bearer <API_KEY>`.

@@ -1,0 +1,19 @@
+{
+  "name": "cf-image-gen",
+  "description": "Single-plugin marketplace for cf-image-gen - image generation via Cloudflare Workers AI.",
+  "owner": {
+    "name": "ErbaZZ (Weerawat P.)",
+    "email": "weerawat.paw@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "cf-image-gen",
+      "source": "./",
+      "description": "Generate images via Cloudflare Workers AI (Flux 1/2, Leonardo Lucid Origin, Leonardo Phoenix). Free-plan friendly, routes through a private CF Worker.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ErbaZZ (Weerawat P.)"
+      }
+    }
+  ]
+}

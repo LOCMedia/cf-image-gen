@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+.wrangler/
+dist/
+.env
+.env.local
+*.log
+.claude
+
+# Personal output directory — examples/sample_images/ is intentionally tracked
+out/
+generated/

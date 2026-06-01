@@ -1,0 +1,13 @@
+{
+  "name": "cf-image-gen",
+  "description": "Generate images via Cloudflare Workers AI (Flux 1/2, Leonardo Lucid Origin, Leonardo Phoenix). Free-plan friendly, routes through a private CF Worker. Supports model selection, aspect-ratio tuning, batch generation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ErbaZZ (Weerawat P.)",
+    "email": "weerawat.paw@gmail.com"
+  },
+  "homepage": "https://github.com/ErbaZZ/cf-image-gen",
+  "repository": "https://github.com/ErbaZZ/cf-image-gen",
+  "license": "MIT",
+  "keywords": ["image-generation", "cloudflare", "workers-ai", "flux", "leonardo"]
+}
